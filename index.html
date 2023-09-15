@@ -2,52 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Profile card component</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Profile card component</title>
+<link rel="stylesheet" href="./styles.css">
+ 
 </head>
 <body>
-  <img src="./images/bg-pattern-top.svg" id="bg-pattern-top" alt="">
-  <img src="./images/bg-pattern-bottom.svg" id="bg-pattern-bottom" alt="">
-
-  <div class="container">
-    <!-- <img src="./images/bg-pattern-card.svg" class="bg-pattern-card" alt=""> -->
-
-    <div class="profile-pic-container">
-      <img src="./images/image-victor.jpg" class="profile-pic" alt="">
-    </div>
-    
-    <div class="top-section">
-      <div class="individual-details">
-        <h3 class="name">Victor Crest <span>26</span></h3> 
-        <span class="country">London</span>
+  <main>
+    <div class="card">
+      <div class="head"></div>
+      <div class="avatar">
+        <img src="./images/image-victor.jpg" alt="profile-picture">
+      </div>
+      <div class="card-body">
+        <div class="inline">
+          <h3>Victor Crest</h3>
+          <span>26</span>
+        </div>
+        <p>London</p>
+      </div>
+      
+      <div class="footer">
+        <div class="detail follower">
+          <h3>80K</h3>
+          <p>Followers</p>
+        </div>
+        <div class="detail like">
+          
+          <h3>803K</h3>
+          <p>Likes</p>
+        </div>
+        <div class="detail photo"> 
+          
+          <h3>1.4K</h3>
+          <p>Photos</p>
+        </div>
       </div>
     </div>
-
-    <div class="bottom-section">
-      <div class="el">
-        <h3>80K</h3>
-        <span>Followers</span>
-      </div>
-      <div class="el">
-        <h3>803K</h3>
-        <span>Likes</span>
-      </div>
-      <div class="el">
-        <h3>1.4K</h3>
-        <span>Photos</span>
-      </div>
+  </main>
   
-    </div>
-  </div>
-  
-
-  <div class="attribution">
-    <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a target="_blank" href="https://www.frontendmentor.io/profile/kelvinappiah">Kelvin Appiah</a></span>
-  </div>
 </body>
 </html>
